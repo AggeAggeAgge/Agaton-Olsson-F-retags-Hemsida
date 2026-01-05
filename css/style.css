@@ -34,7 +34,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 32px;
+    font-size: 50px;
     font-weight: bold;
     background-color: #b58b63;
     border-right: black ridge;
@@ -48,7 +48,7 @@ body {
 #nav1 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-left: 50px;
     padding-right: 50px;
     align-items: center;
@@ -63,11 +63,13 @@ body {
     background-color: #a5b58d;
     color: black;
     font-weight: bold;
+    border-style: double;
     border-radius: 4px;
-    padding: 14px 25px;
+    padding: 14px 50px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    
       
 }
 
@@ -79,26 +81,82 @@ body {
     font-weight: bolder;
     
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.65) 100%), url("/img/CoffeeImage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 18vh;
     padding-left: 15vh;
 
 }
 
+#welcomeText {
+    font-size: 25px;
+    font-weight: normal;
+    margin-right: 55vw;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 15px 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
 #section2 {
     grid-area: d;
-    background: linear-gradient(to top, #ac7a48 0%, #b58b63);
-
+    display: flex;
     background-color: #f6efe8;
     border: black;
     border-style:ridge;
     border-width: 6px;
+    justify-content: space-evenly;
 }
 
+#threeImages {
+    background-color: rgba(255, 255, 255, 0.8);
+    min-width: 70vw;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: double;
+
+}
+
+#bild1 {
+    object-fit: contain;
+    max-width: 500px;
+    max-height: 500px;    
+    border-style: double;
+
+
+}
+
+#bild2 {
+    object-fit: contain;
+    max-width: 500px;    
+    max-height: 500px;    
+    border-style: double;
+    
+}
+
+#bild3 {
+    object-fit: contain;
+    max-width: 500px;    
+    max-height: 500px;    
+    border-style: double;
+
+}
 #footer1 {
+    display: flex;
     grid-area: e;
     background-color: #a5b58d;
     border-right: black ridge;
     border-bottom: black ridge;
     border-left: black ridge;
     border-width: 6px;
+    justify-content: space-between;
+    font-size: 25px;
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-right: 100px;
 }
