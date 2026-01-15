@@ -1,4 +1,3 @@
-/* Denna fil skall innehålla din CSS kod */
 body {
     display: grid;
     margin: 0px;
@@ -15,8 +14,8 @@ body {
     "e";
 
     grid-template-rows:
-    2fr
-    1fr
+    1.5fr
+    0.75fr
     0.5fr
     0.5fr
     7fr
@@ -80,7 +79,7 @@ body {
 #title {
     display: grid;
     grid-area: c;
-    background-color:#b58b63;
+    background-color:#a5b58d;
     border-right: black ridge;
     border-left: black ridge;
     border-width: 6px;
@@ -93,6 +92,7 @@ body {
 #title2 {
 display: grid;
 grid-area: f;
+background-color: #a5b58d;
 border-right: black ridge;
 border-bottom: black ridge;
 border-left: black ridge;
